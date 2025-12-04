@@ -49,7 +49,7 @@ print("Training accuracy:", history.history["accuracy"][-1])
 test_emails = [
     "You have won a free gift card",
     "Let's meet tomorrow to discuss the assignment",
-    "Limited time discount, click here now"
+    "free win, click here now"
 ]
 
 test_array = np.array(test_emails, dtype=object)
